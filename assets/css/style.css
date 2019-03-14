@@ -1,0 +1,92 @@
+/*
+ todoList style
+*/
+
+/*variables*/
+:root {
+	--righteous-font: 'Righteous', cursive;
+}
+
+body {
+	 background-color: rgb(42, 52, 107);
+    color: white;
+    font-size: 1 rem;
+}
+
+span{
+		margin-top:50px;
+		margin-left:-246px;
+}
+
+.hero {
+	position: absolute;
+
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+
+}
+
+.schedule{
+	position: absolute;
+
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+
+}
+.btn{
+
+font-size:12px;
+float:right;
+margin-right: 2px;
+
+}
+h1 {
+	margin-top: 4rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: var(--righteous-font);
+}
+
+h3 {
+	margin-top: 4rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: var(--righteous-font);
+}
+.btn-danger{
+	margin-right:180px;
+
+
+}
+
+p{
+ 	margin-left: 50px;
+	
+}
+
+.lead {
+	font-size: 1 rem;
+	font-family: var(--righteous-font);
+}
+ul {
+	/*border-top: 2px solid white;*/
+	margin-top: 0.5rem;
+	list-style: none;
+	/*display: none;*/
+}
+li {
+	border-bottom: 1px solid white;
+	padding: 0.5rem 0 0.5rem 0;
+	margin: 0 0.4rem 0 0.5rem;
+}
+.checkboxes {
+	float: right;
+	line-height: 15px;
+	width: 17px;
+	height: 17px;
+	background-color: #e9ecef;
+	border: 1px solid #e9ecef;
+	border-radius: 3px;
+}
